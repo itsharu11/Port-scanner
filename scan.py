@@ -27,6 +27,7 @@ try :
             print("[*] Port {} is open ".format(port))
         s.close()
 
+#Exceptions 
 except KeyboardInterrupt:
         print("\n Exiting :(")
         sys.exit()
